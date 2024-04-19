@@ -1,0 +1,50 @@
+body{
+    background-color: #09090b;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+    text-align: center;
+    color:aliceblue;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.addTask {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+    /* background-color: #0f1011; */
+}
+
+.task{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 20px 45px;
+    border-color: #212124;
+}
+
+.task button{
+    margin-left: 20px;
+    text-align: center;
+}
+
